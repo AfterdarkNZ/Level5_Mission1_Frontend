@@ -1,0 +1,32 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: "Lato", sans-serif;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 50%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid rgb(112, 107, 182);
+  border-radius: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 700px;
+}
